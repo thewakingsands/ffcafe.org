@@ -1,0 +1,32 @@
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+<section class="hero is-warning is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        下载已开始……
+      </h1>
+      <h2 class="subtitle download-tip delay-4 animated fadeInUp">
+        如果没有看到下载，请点击<a class="colored" href="#download">这里</a>。如果您是第一次使用，建议您查看<a class="colored" href="https://bbs.nga.cn/read.php?tid=18245116" target="_blank" rel="noopener noreferrer">新手教程</a>。
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="content">
+      {{ .Content }}
+      <br><br>
+      <p class="has-text-centered">
+        <a id="goback" class="button is-warning is-fullwidth is-rounded is-inverted is-outlined is-large" href="{{ .Params.AboutLink }}">返回查看说明</a>
+      </p>
+    </div>
+  </div>
+</section>
+<a id="downloadlink" style="display: none;" href="{{ .Params.DownloadLink }}"></a>
+<script>
+  // TODO: 正经写 match，现在先凑合
+  if (document.referrer.indexOf(location.host) < 0) {
+    document.getElementById('goback').click();
+  }
+</script>

@@ -1,0 +1,27 @@
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+<section class="hero is-medium is-warning is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        {{ .Title }}
+      </h1>
+      <h2 class="subtitle">
+        {{ .Params.Subtitle }}
+      </h2>
+      <p>
+        <a class="button is-warning is-rounded is-inverted is-outlined is-large" href="{{ .Params.DownloadLink }}">立即下载</a>
+      </p>
+      <p>
+        <small>{{ .Params.Notes | markdownify }}</small>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </div>
+</section>

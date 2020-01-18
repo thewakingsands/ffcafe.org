@@ -1,0 +1,160 @@
+languageCode: zh-cn
+title: 肥肥咖啡 FFCAFE
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: 
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/fresh.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: FFCafe 肥肥咖啡
+    # Hero subtitle (optional)
+    subtitle: FFCafe 是专业的《最终幻想 14》国服资料站，为玩家和开发者提供坚实的技术支持。
+    # Button text
+    buttontext: 关于我们
+    # Where the main hero button links to
+    buttonlink: "#section1"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    # clientlogos:
+    # - systek
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: 首页
+    url: /
+  - title: ACT整合
+    url: /act
+  - title: 新大陆见闻录
+    url: https://ff14.org/?utm_source=ffcafe&utm_medium=website&utm_campaign=navbar
+  - title: 工具集
+    sublinks:
+    - title: 文本检索
+      url: https://strings.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=navbar
+    - title: 交互地图
+      url: https://map.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=navbar
+  - title: 支持我们
+    url: https://afdian.net/@wakingsands
+    button: true
+  section1:
+    title: 为玩家群体服务
+    subtitle: 提供更好更方便的工具手册服务
+    tiles:
+    - title: 新大陆见闻录
+      icon: mouse-globe
+      text: 超好用的《最终幻想14》国服新人指导手册
+      url: https://ff14.org/?utm_source=ffcafe&utm_medium=website&utm_campaign=section1
+      buttonText: 点击访问
+    - title: 文本检索器
+      icon: laptop-cloud
+      text: 中、英、日三语种游戏内全文本翻译检索
+      url: https://strings.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=section1
+      buttonText: 点击访问
+    - title: 交互地图
+      icon: plug-cloud
+      text: 可放大缩小的交互式游戏地图，不用开游戏也能看到地图
+      url: https://map.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=section1
+      buttonText: 点击访问
+  section2:
+    title: 支持国服开发者
+    subtitle: 为国服开发者提供各类 API 和数据支持服务
+    features:
+    - title: 通用的 API 服务，现以中文呈现
+      text: <a href="https://cafemaker.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=section2" target="_blank">CafeMaker</a> 提供与国服同步更新的 XIVAPI 中文数据库。国服也可以使用 XIVAPI 丰富的数据接口了。
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: 一图胜千言，在你的网站嵌入地图
+      text: 在你的网站上也可<a href="https://github.com/thewakingsands/ffcafe.org/wiki/InteractiveMap?utm_source=ffcafe&utm_medium=website&utm_campaign=section2" target="_blank">嵌入</a>我们的<a href="https://map.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=section2" target="_blank">交互地图</a>，让你的访客更直观获取到你的信息。
+      icon: doc-sync
+    - title: 使用悬浮窗，显示丰富内容
+      text: 你可以使用 <a href="https://unpkg.cnpmjs.org/@thewakingsands/kit-tooltip@0.2.0/dist/example/auto.html?utm_source=ffcafe&utm_medium=website&utm_campaign=section2" target="_blank">CafeKit</a> 在你的网站提供物品、技能等数据的悬浮窗，让内容更丰富。
+      icon: mobile-feed
+  section4:
+    title: 大家都喜欢！
+    subtitle: 无论是知名的攻略站，还是普通玩家，都在广泛使用我们的提供的产品与服务。
+    clients:
+    - name: 瓦尔酱
+      quote: 在规划维基的系统时，从未想过能拥有这样一个引用便利、打开迅速、用起来简洁明了的全地图坐标显示功能。我游的众多地图数量带来了很大的工程量，而 FFCafe 的交互地图很好地满足了维基词条对于地图的需求，并且接入维基系统来也十分方便快捷。
+      job: 中文WIKI站长
+      img: walpurgis.png
+    - name: 素素
+      quote: 维护像素素攻略站这样的大型的综合类攻略站点时，一个可复用的数据展示组件可以节省大量的人力成本。我们在网站上安装了 FFCafe 的交互地图和悬浮窗，读者在查阅信息的时候就更加方便了。FFCafe 提供的数据非常准确，技术支持也十分专业。
+      job: 素素攻略站站长
+      img: susu.jpg
+    - name: 泡打
+      quote: 四年前为了找官方翻译，我花了两个月从2.0重新打到了3.0，想起来真的是很令人感动的回忆。多亏了 FFCafe 的文本检索，做完苍穹骑士团武器设定篇翻译总共花的时间也没有两天。喜欢世界设定以及设定背后故事的大家，文本检索真的很好用，请一定要试一试。
+      job: 世界观剧情设定爱好者
+      img: paoda.jpg
+  section5: false
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: 关注
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/thewakingsands
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://weibo.com/u/6364253854
+      icon: weibo
+    - link: https://jq.qq.com/?_wv=1027&k=5vkoWG1
+      icon: qq
+    bulmalogo: false
+    quicklinks:
+      column1:
+        title: "玩家"
+        links:
+          - text: ACT 整合
+            link: /act
+          - text: 新大陆见闻录
+            link: https://ff14.org/?utm_source=ffcafe&utm_medium=website&utm_campaign=footer
+          - text: 文本检索器
+            link: https://strings.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=footer
+          - text: 交互地图
+            link: https://map.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=footer
+      column2:
+        title: "开发者"
+        links:
+          - text: CafeMaker 数据API
+            link: https://cafemaker.wakingsands.com/?utm_source=ffcafe&utm_medium=website&utm_campaign=footer
+          - text: CafeKit 数据悬浮窗
+            link: https://unpkg.cnpmjs.org/@thewakingsands/kit-tooltip@0.2.0/dist/example/auto.html?utm_source=ffcafe&utm_medium=website&utm_campaign=footer
+          - text: 中文解包数据集
+            link: https://github.com/thewakingsands/ffxiv-datamining-cn/?utm_source=ffcafe&utm_medium=website&utm_campaign=footer
+          - text: 交互地图接入文档
+            link: https://github.com/thewakingsands/ffcafe.org/wiki/InteractiveMap?utm_source=ffcafe&utm_medium=website&utm_campaign=footer
+      column3:
+        title: "关于"
+        links:
+        - text: 联系我们
+          link: /contact
+        - text: 加入我们
+          link: /join-us
+        - text: 支持我们
+          link: https://afdian.net/@wakingsands
+blackfriday:
+  hrefTargetBlank: true
+  plainIDAnchors: true

@@ -1,0 +1,8 @@
+{{ template "_internal/google_analytics_async.html" . }}
+{{ if eq .Site.Params.openGraph true }}
+{{ template "_internal/opengraph.html" . }}
+{{ end }}
+<meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}FFCafe 是专业的《最终幻想 14》国服资料站，为玩家和开发者提供坚实的技术支持。{{ end }}" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
