@@ -1,0 +1,13 @@
+AllowCORS = true
+
+[[Rules]]
+Match = ".*\\.(jpg|png|svg|ico|jpeg|js)"
+CrossSiteProtection = true
+CrossSiteProtectionOnlyEmptyReferrer = true
+ReferrerProtection = true
+ReferrerAllowed = [
+  "^https?://ffcafe\\.org/.*",
+  "^https?://www\\.ffcafe\\.org/.*"
+]
+[Rules.AddHeaders]
+Cache-Control = "public,max-age=3600"
