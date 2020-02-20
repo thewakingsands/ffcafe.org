@@ -79,8 +79,3 @@ Notes: \*下载国服整合版，适用于 Windows 64 位系统、首次安装�
 * [怎么设置 DPS 悬浮窗？](https://www.yuque.com/ffcafe/act/dpsoverlay)
 * [解析插件没有数据怎么办？](https://www.yuque.com/ffcafe/act/nodata)
 * [常见问题自助排查指南](https://www.yuque.com/ffcafe/act)
-
-
-<p class="has-text-centered">
-  <a class="button is-warning is-fullwidth is-rounded is-inverted is-outlined is-large" href="/actdown">立即下载</a>
-</p>

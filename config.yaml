@@ -18,7 +18,7 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/ffcafe.png
     link: /
   font:
     name: "Open Sans"
@@ -33,7 +33,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#section1"
     # Hero image (from static/images/___)
-    image: illustrations/worker.svg
+    image: illustrations/sanmei.png
     # Footer logos (from static/images/logos/clients/___.svg)
     # clientlogos:
     # - systek
@@ -110,7 +110,7 @@ params:
   section5: false
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: 334.png
     # Social Media Title
     socialmediatitle: 关注
     # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -118,7 +118,7 @@ params:
     - link: https://github.com/thewakingsands
       # Icons are from Font Awesome
       icon: github
-    - link: https://weibo.com/u/6364253854
+    - link: https://weibo.com/ffcafe
       icon: weibo
     - link: https://jq.qq.com/?_wv=1027&k=5vkoWG1
       icon: qq
