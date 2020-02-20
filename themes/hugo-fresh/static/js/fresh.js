@@ -109,8 +109,10 @@ $(document).ready(function(){
     $(window).scroll(function() {
         if ($(window).scrollTop() >= pxShow) {
             $("#backtotop").addClass('visible');
+            $(".content-footer").addClass('visible');
         } else {
             $("#backtotop").removeClass('visible');
+            $(".content-footer").removeClass('visible');
         }
     });
     $('#backtotop a').on('click', function() {

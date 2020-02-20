@@ -11,7 +11,8 @@ Notes: \*下载国服整合版，适用于 Windows 64 位系统、首次安装�
 <a name="details"></a>
 
 <div class="notification">
-我们已通过插件中心自动更新“<b>FFXIV解析插件</b>”支持伊甸零式希望乐园觉醒之章(<b>e1s-e4s</b>)、国服新增的服务器数据上传(<b>FFLogs可计入排名</b>)，请确认插件->插件中心内“FFXIV解析插件”版本为<b>5.0.5.1</b>或以上。若版本过低请点击左下角“刷新列表”或“更新插件”按钮更新。
+我们已通过插件中心自动更新“FFXIV解析插件”支持国服5.10版本数据解析、FFLogs上传(可计入国服排名)，请确认插件>插件中心内“FFXIV解析插件”版本为5.1.0.0或以上。若版本过低请点击左下角“更新插件”按钮更新。
+cactbot已更新支持最新副本(极哈迪斯等)时间轴。
 </div>
 
 <div class="notification is-info">
@@ -28,10 +29,6 @@ Notes: \*下载国服整合版，适用于 Windows 64 位系统、首次安装�
 * **广泛插件支持**：同时支持加载“绿色化”插件和“非绿色化”插件(即你能找到的任何 ACT 插件)
 * **开发者友好**：我们采用全新的技术方案将原版 ACT 运行在完全受控环境下。若你是插件开发者，对 ACT 功能和接口有扩展需求，可联系我们获取支持
 
-<p class="has-text-centered">
-  <a class="button is-warning is-fullwidth is-rounded is-inverted is-outlined is-large" href="/actdown">立即下载</a>
-</p>
-
 普通用户请直接点击[立即下载](/actdown)按钮下载即可。
 
 <!-- 如果你更喜欢使用预设好各类插件，零操作解压即可使用的绿色版本，请点击[这里]()下载我们提供的懒人包。
@@ -43,13 +40,12 @@ Notes: \*下载国服整合版，适用于 Windows 64 位系统、首次安装�
 
 当前我们维护并支持以下插件：
 
-* Hojoring 全家桶（TTS, SPESPE 触发器，时间轴）
 * cactbot 时间轴/触发器/TTS
 * Triggernometry 高级触发器
 * ngld 悬浮窗（支持 WS 模板）
-* FZ 时间轴
-* FoxTTS 语音
-* 延迟/丢包显示
+* FoxTTS 语音 - 百度语音合成功能
+* FoxPing - 延迟/丢包显示
+* 抹茶 Matcha - 提供排本、F.A.T.E.、过图提示
 
 插件列表在不断更新中，以应用中心内列表为准。当然，你也可以自行安装任意插件。
 

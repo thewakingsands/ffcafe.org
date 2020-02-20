@@ -10,3 +10,21 @@
 .hero a.colored {
   color: #3273dc!important;
 }
+
+.content-footer {
+  background: #fff;
+  margin-top: 2em;
+  position: sticky;
+  bottom: 22px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9998;
+  transition: 0.35s;
+  transform: scale(0.7);
+  transition: all 0.5s;
+}
+.content-footer.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}

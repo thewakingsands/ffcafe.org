@@ -1,7 +1,7 @@
 languageCode: zh-cn
 title: 肥肥咖啡 FFCAFE
 theme: hugo-fresh
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+googleAnalytics: 'UA-140050718-2'
 # Disables warnings
 disableKinds:
 - taxonomy
@@ -43,7 +43,7 @@ params:
     # - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: 首页
+  - title: 关于
     url: /
   - title: ACT整合
     url: /act
