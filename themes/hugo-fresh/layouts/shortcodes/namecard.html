@@ -1,0 +1,11 @@
+<div class="namecard" style='background-color: {{ .Get "color" }} ;'>
+  <div class="avatar">
+    <img src="{{ printf "/images/avatars/%s" $.Params.avatar | relURL }}" alt='{{ .Get "name" }}'>
+  </div>
+  <div class="details">
+    <div class="name-line">
+      <div class="namecard-name">{{ .Get "name" }}</div>
+      <div class="namecard-title">{{ .Get "title" }}</div>
+    </div>
+  </div>
+</div>

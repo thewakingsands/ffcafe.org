@@ -149,6 +149,8 @@ params:
       column3:
         title: "关于"
         links:
+        - text: 成员
+          link: /team
         - text: 联系我们
           link: /contact
         - text: 加入我们

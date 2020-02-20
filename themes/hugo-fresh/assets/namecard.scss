@@ -1,0 +1,41 @@
+.namecard {
+  display: inline-flex;
+  cursor: default;
+  width: 300px;
+  margin-right: 1.25em;
+  margin-bottom: 1.25em;
+  padding: 0.6em;
+  border-radius: 8px;
+  align-items: center;
+  transition: transform 0.27s;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+
+  &:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  .avatar {
+    width: 96px;
+    height: 96px;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    img {
+      border-radius: 100%;
+      overflow: hidden;
+    }
+  }
+
+  .details {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+
+    .namecard-name {
+      font-size: 1.5em;
+    }
+    .namecard-title {
+      font-size: 0.8em;
+    }
+  }
+}
