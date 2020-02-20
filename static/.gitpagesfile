@@ -6,6 +6,7 @@ CrossSiteProtection = true
 CrossSiteProtectionOnlyEmptyReferrer = true
 ReferrerProtection = true
 ReferrerAllowed = [
+  "^$",
   "^https?://ffcafe\\.org/.*",
   "^https?://www\\.ffcafe\\.org/.*"
 ]
