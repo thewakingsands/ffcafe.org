@@ -1,6 +1,6 @@
 ---
-title: 抹茶 Matcha
-subtitle: 隐私权政策
+title: 抹茶 Matcha 隐私权政策
+subtitle: 了解我们如何获取并收集信息
 summary: 本隐私权政策旨在协助您了解我们如何获取并收集信息。
 include_footer: true
 ---
