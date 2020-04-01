@@ -19,7 +19,7 @@ DownloadLink: "https://api.act.railgun.co/act/update/download?version=latest"
 如果没有自动开始下载，请点击下面链接进行下载：
 
 * [本地下载](https://api.act.railgun.co/act/update/download?version=latest) 首次安装或手动更新下载
-* [蓝奏云分流](https://www.lanzous.com/i9qvofa) 如果上面的地址下载不了可从蓝奏云下载，更新不如上面及时
+* [蓝奏云分流](https://www.lanzous.com/iawfh2b) 如果上面的地址下载不了可从蓝奏云下载，更新不如上面及时
 <!--* [傻瓜整合版]() 自带流行插件，解压即可用，如果无法启动请下载上面的安装版-->
 
 {{% title3 "遇到问题？" %}}
