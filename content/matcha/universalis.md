@@ -6,7 +6,8 @@ include_footer: true
 
 # Universalis 集成
 
-[Universalis](https://universalis.app/) 是一个支持国际服和国服的跨服市场版统计项目。 Universalis 的数据全部来自于其他用户在使用过程中的上报。
+[Universalis](https://universalis.app/) 是一个支持国际服和国服的跨服市场布告板统计项目。
+Universalis 的数据全部来自于其他用户在使用过程中的上报。
 
 抹茶 Matcha 插件（以下简称“本插件”）内置 Universalis 集成功能。当你启用 Universalis 集成时，
 本插件会自动将你浏览市场的物价数据上报到 Universalis，同时从 Universalis 获取你当前所在大区其他服务器的物价数据并自动显示到悬浮窗上。
