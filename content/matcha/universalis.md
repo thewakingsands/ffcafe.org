@@ -1,3 +1,9 @@
+---
+title: Universalis 集成 | 抹茶 Matcha
+subtitle: 了解我们如何集成 Universalis
+include_footer: true
+---
+
 # Universalis 集成
 
 [Universalis](https://universalis.app/) 是一个支持国际服和国服的跨服市场版统计项目。 Universalis 的数据全部来自于其他用户在使用过程中的上报。
