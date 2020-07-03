@@ -11,7 +11,7 @@
 同时也不会自动查询其他同大区服务器的物价信息。你可以自行在 [Universalis 网站](https://universalis.app/)上查看其他用户上报的数据。
 
 无论你是否开启 Universalis 集成， FFCAFE、Universalis、盛趣游戏或其他任何第三方都无从获取你的角色 ID 等能标识你个人身份信息数据。
-这最大限度防止第三方获知一个玩家是否使用了 Universalis。
+这最大限度地防止第三方获知一个玩家是否使用了 Universalis。
 
 Universalis 集成默认不会被启用。
 
