@@ -14,8 +14,8 @@ Universalis 的数据全部来自于其他用户在使用过程中的上报。
 
 ## 如何使用
 
-你可以从本[网站](https://ffcafe.org/act/)下载我们提供的 ACT 国服整合版本，在“插件中心”下载“抹茶 Matcha”插件，并按[图示](https://i.loli.net/2020/07/05/UNJmuoHWv1gicOV.jpg)
-教程开启 Universalis 集成后即可使用。
+你可以从本[网站](https://ffcafe.org/act/)下载我们提供的 ACT 国服整合版本，
+在“插件中心”下载“抹茶 Matcha”插件，并按[图示](https://i.loli.net/2020/07/05/UNJmuoHWv1gicOV.jpg)教程开启 Universalis 集成后即可使用。
 
 ## 隐私保护
 
