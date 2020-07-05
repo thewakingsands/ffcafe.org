@@ -12,6 +12,11 @@ Universalis 的数据全部来自于其他用户在使用过程中的上报。
 抹茶 Matcha 插件（以下简称“本插件”）内置 Universalis 集成功能。当你启用 Universalis 集成时，
 本插件会自动将你浏览市场的物价数据上报到 Universalis，同时从 Universalis 获取你当前所在大区其他服务器的物价数据并自动显示到悬浮窗上。
 
+## 如何使用
+
+你可以从本[网站](https://ffcafe.org/act/)下载我们提供的 ACT 国服整合版本，在“插件中心”下载“抹茶 Matcha”插件，并按[图示](https://i.loli.net/2020/07/05/UNJmuoHWv1gicOV.jpg)
+教程开启 Universalis 集成后即可使用。
+
 ## 隐私保护
 
 我们尽最大努力保护你的隐私，同时权衡社区功能。当你关闭 Universalis 集成时，没有数据会被发送到 Universalis 服务器，
