@@ -13,6 +13,8 @@ include_footer: true
 {{< namecard name="阿布evo" title="家养懒猫" color="#3654a1" avatar="evo.jpg" >}}
 {{< namecard name="伊芙喵!" title="回线接线师" color="#2ecc71" avatar="yyf.png" >}}
 {{< namecard name="Noisyfox" title="摩杜纳最菜吃馍" color="#bc482f" avatar="fox.png" >}}
+{{< namecard name="KagurazakaSanae" title="_(:з」∠)_" color="#80c0cb" avatar="rinne.jpg" >}}
+{{< namecard name="西園寺玲咲" title="undefined" color="#635890" avatar="64652442.jpg" >}}
 
 <small>排名不分先后。</small>
 
