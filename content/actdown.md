@@ -4,7 +4,7 @@ summary: FFCafe 肥肥咖啡提供自带超方便插件中心的 Advanced Combat
 type: download
 include_footer: true
 AboutLink: "/act"
-DownloadLink: "https://api.act.railgun.co/act/update/download?version=latest"
+DownloadLink: "https://cafemenu.lv5.one/act/update/download?channel=release&variant=sfx&version=latest"
 ---
 
 <div class="notification is-info">
@@ -18,9 +18,9 @@ DownloadLink: "https://api.act.railgun.co/act/update/download?version=latest"
 
 如果没有自动开始下载，请点击下面链接进行下载：
 
-* [本地下载](https://api.act.railgun.co/act/update/download?version=latest) 首次安装或手动更新下载
-* [蓝奏云分流](https://ffcafe.lanzous.com/ibmz1ed) 如果上面的地址下载不了可从蓝奏云下载，更新不如上面及时
-* [绿色版](https://ffcafe.lanzous.com/ibh83hg) 安装不上可尝试绿色版，绿色版仍在测试中可能问题多多 
+* [本地下载](https://cafemenu.lv5.one/act/update/download?channel=release&variant=sfx&version=latest) 首次安装或手动更新下载
+<!-- * [蓝奏云分流](https://ffcafe.lanzous.com/ibmz1ed) 如果上面的地址下载不了可从蓝奏云下载，更新不如上面及时 -->
+<!-- * [绿色版](https://ffcafe.lanzous.com/ibh83hg) 安装不上可尝试绿色版，绿色版仍在测试中可能问题多多  -->
 <!--* [傻瓜整合版]() 自带流行插件，解压即可用，如果无法启动请下载上面的安装版-->
 
 {{% title3 "遇到问题？" %}}
