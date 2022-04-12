@@ -10,11 +10,6 @@ Notes: \*下载国服整合版，适用于 Windows 64 位系统、首次安装�
 
 <a name="details"></a>
 
-<div class="notification">
-我们已通过插件中心自动更新“FFXIV解析插件”支持国服5.15版本数据解析、FFLogs上传(可计入国服排名)，请确认插件>插件中心内“FFXIV解析插件”版本为5.1.5.0或以上。若版本过低请点击左下角“更新插件”按钮更新。
-cactbot已更新支持绝亚时间轴。
-</div>
-
 <div class="notification is-info">
 如果你希望支持我们，可以在国服的<a href="http://act.ff.sdo.com/20190315Zhaodai/index.html#/index" target="_blank" rel="noopener noreferrer">萌新招待</a>中和我们绑定(我们不会提供任何游戏内帮助，若有亲友或导师建议优先绑定他们)，招待码为：
 <p><code>056g-4hwr-mlwn-23ig</code></p>
