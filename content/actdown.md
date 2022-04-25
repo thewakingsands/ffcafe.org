@@ -4,7 +4,7 @@ summary: FFCafe 肥肥咖啡提供自带超方便插件中心的 Advanced Combat
 type: download
 include_footer: true
 AboutLink: "/act"
-DownloadLink: "https://cafemenu.lv5.one/act/update/download?channel=release&variant=sfx&version=latest"
+DownloadLink: "https://cafemenu.xivcdn.com/act/update/download?channel=release&variant=sfx&version=latest"
 ---
 
 <div class="notification is-info">
@@ -18,15 +18,18 @@ DownloadLink: "https://cafemenu.lv5.one/act/update/download?channel=release&vari
 
 如果没有自动开始下载，请点击下面链接进行下载：
 
-* [本地下载](https://cafemenu.lv5.one/act/update/download?channel=release&variant=sfx&version=latest) 首次安装或手动更新下载
+* [本地下载](https://cafemenu.xivcdn.com/act/update/download?channel=release&variant=sfx&version=latest) 首次安装或手动更新下载
+* [测试版下载](https://cafemenu.xivcdn.com/act/update/download?channel=canary&variant=sfx&version=latest) bug 修复会在测试版优先发布，如有需要可选择下载
 <!-- * [蓝奏云分流](https://ffcafe.lanzous.com/ibmz1ed) 如果上面的地址下载不了可从蓝奏云下载，更新不如上面及时 -->
 <!-- * [绿色版](https://ffcafe.lanzous.com/ibh83hg) 安装不上可尝试绿色版，绿色版仍在测试中可能问题多多  -->
 <!--* [傻瓜整合版]() 自带流行插件，解压即可用，如果无法启动请下载上面的安装版-->
+
+如无法下载，可以加入我们的 QQ 反馈群 163386335 ，或[前往 FF14 幻想科技 QQ 频道](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=RLXpo&from=246610&biz=ka)寻求帮助。
 
 {{% title3 "遇到问题？" %}}
 
 我们充分理解你遇到问题的焦急的失望与无助。由于我们是一个小团队，玩家情况非常复杂，对各种情况的测试无法做到面面俱到，在此我们对此表示抱歉。我们的工作纯属志愿，没有获取任何直接的报酬，因此也希望你能理解我们的困难与努力。
 
-如果你在使用过程中遇到了问题，可以通过加我们的 QQ 反馈群 “加隆德青磷技术开发部” 163386335 进行询问。
+如果你在使用过程中遇到了问题，可以加入我们的 QQ 反馈群 163386335 ，或[前往 FF14 幻想科技 QQ 频道](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=RLXpo&from=246610&biz=ka)寻求帮助。
 
 在询问之前也希望你能尽可能地通过[常见问题自助排查指南](https://www.yuque.com/ffcafe/act)进行自助排查，减轻我们的工作压力。
