@@ -16,6 +16,9 @@ include_footer: true
 {{< namecard name="KagurazakaSanae" title="_(:з」∠)_" color="#80c0cb" avatar="rinne.jpg" >}}
 {{< namecard name="西園寺玲咲" title="密文书记官" color="#635890" avatar="64652442.jpg" >}}
 {{< namecard name="以墨" title="水晶搬运者" color="#6abbdb" avatar="yimo.jpg" >}}
+{{< namecard name="sandtechnology" title="疑难侦察雷达" color="#e1a274" avatar="sand.jpg" >}}
+{{< namecard name="芊" title="混沌善良" color="#ccccff" avatar="qian.jpg" >}}
+{{< namecard name="135" title="混沌邪恶" color="#66ccff" avatar="135.jpg" >}}
 
 <small>排名不分先后。</small>
 
