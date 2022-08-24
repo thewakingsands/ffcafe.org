@@ -3,6 +3,13 @@ title: 成员
 summary: FFCafe 肥肥咖啡的成员信息
 include_footer: true
 ---
+
+FFCAFE 是松散的玩家组织，因此在此公布的团队成员并非完全代表 FFCAFE 的立场，仅代表该成员对 FFCAFE 发展做出了一定贡献。
+
+FFCAFE 并不赞同团队成员的所有立场，同时任何团队成员个人行为也不应代表 FFCAFE；代表团队的决策都经过内部商讨实施。
+
+这也是我们成立 FFCAFE 的初衷——脱离个人崇拜主义、降低个人行为的影响。
+
 <br>
 
 <center>
@@ -25,3 +32,4 @@ include_footer: true
 <a class="button is-warning is-rounded is-inverted is-outlined is-large" href="/join-us">加入我们</a>
 
 </center>
+
