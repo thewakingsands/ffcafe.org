@@ -27,3 +27,4 @@ jobs:
           cos_region: "ap-chengdu"
           local_path: public
           clean: true
+          accelerate: true
